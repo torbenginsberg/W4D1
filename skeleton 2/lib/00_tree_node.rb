@@ -20,6 +20,8 @@ class PolyTreeNode
 
         @parent = p_node
     end
+    
+    #test comment
 
     def add_child(child_node)
         child_node.parent = (self)  
